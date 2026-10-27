@@ -1,17 +1,20 @@
 {
   "dependencies": {
-    "express": "^5.3.0",
-    "nodemon": "^3.1.14"
+    "express": "^5.3.0"
   },
   "name": "tp_ex1",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
